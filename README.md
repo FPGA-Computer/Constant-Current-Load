@@ -1,5 +1,7 @@
 ## Current Current Load
-This is a constant current load useful for a maximum of 50V or 5A or 50W. The opamp circuit is powered by an external 12V DC supply.
+This is a constant current load useful for a maximum of 50V or 5A or 30W under forced air cooling. A MOSFET with a lower Theta JC could improve on the upper power limit.
+
+The opamp circuit is powered by an external 12V DC supply.
 
 The output current can be set by a 0-0.5V control signal.  The 0.1R 5W power resistor is used with an opamp feedabck loop.
 
