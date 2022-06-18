@@ -7,11 +7,11 @@ The circuit is constructed on a single side PCB with a mix of SMT and through ho
 
 A low Temperature coefficient sensing resistor with a noninverting amplifier is used for reading the current. It is roughly 0.5V/A intended for a 3.3V microcontroller.  The output gain can be changed by varying R6.
 
-![alt text](./hardware/Constant Current Load - PCB.png)
+![alt text](./hardware/Constant_Current_Load_-_PCB.png)
 
 The PCB is mounted onto a 50W heatsink with MOSFET and a fan with a speed controller.
 
-![alt text](./hardware/heatsink assembly.jpg)
+![alt text](./hardware/heatsink_assembly.jpg)
 
 ## Fan speed controller
 
@@ -23,19 +23,21 @@ The fan speed controller is a simple linear regulator with a thermistor and a re
 
 V(fan) = 2.5V * (Rth + 15K)/Rth.
 
+![alt text](./hardware/Fan_voltage_vs_temperature.png)
+
 I really needed a stud mounted part (3D printers) to sense the heatsink temperature, so I made my own.
 
 I filed a hexagon hole in the PCB for a 4-40 hex jackscrew (commonly used for D-sub connectors).
 
-![alt text](./hardware/Fan controller - hole.jpg)
+![alt text](./hardware/Fan_controller_-_hole.jpg)
 
 The jackscrew is press fit (or hammered in my case) onto the PCB. The controller PCB is mounted flush onto the heatsink with the base of the stud making good thermal contact. 
 
-![alt text](./hardware/Fan controller - back.jpg)
+![alt text](./hardware/Fan_controller_-_back.jpg)
 
 I dipped the thermistor in thermal paste and fits into the screw hole. Hot gule or epoxy can then be applied to cover the sensor.  A small piece of PCB (~1cm^2) acts as the heatsink for the transistor.
 
-![alt text](./hardware/Fan controller - assembled.jpg)
+![alt text](./hardware/Fan_controller_-_assembled.jpg)
 
 License: 
 
