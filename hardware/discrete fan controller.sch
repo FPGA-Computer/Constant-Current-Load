@@ -3332,7 +3332,7 @@ Attribution 4.0 International License.</text>
 <parts>
 <part name="Q1" library="ipc-7351-transistor" deviceset="NPN_" device="SOT89" technology="SOT89" value="BCX56"/>
 <part name="U1" library="Misc Analog" deviceset="TL_431" device="DBZ" value="TL431"/>
-<part name="R1" library="ipc-7351-resistor" deviceset="RESISTOR_" device="0603" value="4K7"/>
+<part name="R1" library="ipc-7351-resistor" deviceset="RESISTOR_" device="0603" value="1K"/>
 <part name="R2" library="ipc-7351-resistor" deviceset="RESISTOR_" device="0603" value="15K"/>
 <part name="SUPPLY1" library="supply2" deviceset="GND" device=""/>
 <part name="TH1" library="wirepad" deviceset="SMD2" device=""/>

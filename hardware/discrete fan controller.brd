@@ -979,7 +979,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="NAME" x="7.794" y="5.4505" size="0.6096" layer="25" font="vector" ratio="15"/>
 <attribute name="VALUE" x="9.4085" y="5.922" size="0.6096" layer="27" font="vector" ratio="15" rot="R270"/>
 </element>
-<element name="R1" library="ipc-7351-resistor" package="RESC1608X55N" value="4K7" x="12.573" y="3.429" smashed="yes" rot="R270">
+<element name="R1" library="ipc-7351-resistor" package="RESC1608X55N" value="1K" x="12.573" y="3.429" smashed="yes" rot="R270">
 <attribute name="NAME" x="12.212" y="5.1355" size="0.6096" layer="25" font="vector" ratio="15"/>
 <attribute name="VALUE" x="12.2635" y="4.044" size="0.6096" layer="27" font="vector" ratio="15" rot="R270"/>
 </element>
